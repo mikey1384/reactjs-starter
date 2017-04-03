@@ -13,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "server": "sudo forever -o out.log -e err.log start index.js",
+    "stopserver": "sudo forever stop index.js",
     "eject": "react-scripts eject"
   }
 }
